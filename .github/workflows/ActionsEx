@@ -1,0 +1,27 @@
+name: actions ex Workflow
+
+on: 
+  pull_request:
+    types: [opened]
+
+jobs:
+  commentAfterPull:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: start running 
+        run: echo "step is running"
+        
+      - name: Comment on PR
+        uses: actions/github-script@v7     
+        
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "My comment is approved"
+            })
