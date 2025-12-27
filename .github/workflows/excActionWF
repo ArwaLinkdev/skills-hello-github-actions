@@ -1,0 +1,34 @@
+name: Actions ex Workflow
+
+# Grant minimal permissions required to comment on PRs
+permissions:
+  pull-requests: write
+
+# Trigger workflow when a PR is opened
+on: 
+  pull_request:
+    types: [opened]
+
+jobs:
+  commentAfterPull:
+    runs-on: windows-latest
+    steps:
+      # Step 1: Check out the repository
+      - uses: actions/checkout@v4
+
+      # Step 2: Run a simple command
+      - name: Start running
+        run: echo "Step is running"
+
+      # Step 3: Comment on the pull request
+      - name: Comment on PR
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "My comment is approved"
+            })
