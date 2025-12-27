@@ -1,15 +1,16 @@
-name: Actions ex Workflow
+name: Post welcome comment
 
 permissions:
   pull-requests: write
 
 on:
-  pull_request:
+ pull_request:
     types: [opened]
 
 jobs:
-  commentAfterPull:
-    runs-on: windows-latest
+  welcome:
+    name: Post welcome comment
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Run step
