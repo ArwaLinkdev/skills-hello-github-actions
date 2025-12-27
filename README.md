@@ -1,48 +1,37 @@
-# Hello GitHub Actions
 
-_Create and run a GitHub Actions workflow._
+<div align="center">
 
-## Welcome
+# 🎉 Congratulations ArwaLinkdev! 🎉
 
-Automation is key for repetitive tasks like testing, scanning, review, and deployment processes, and [GitHub Actions](https://docs.github.com/actions) is the best way to streamline that workflow.
+<img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
 
-- **Who is this for**: Developers, DevOps engineers, Security engineers
-- **What you'll learn**: How to create GitHub Actions workflows, how to run them, and how to use them to automate tasks.
-- **What you'll build**: An Actions workflow that will comment on a pull request when it is created.
-- **Prerequisites**: [Introduction to GitHub](https://github.com/skills-dev/introduction-to-github)
-- **How long**: This exercise can be finished in less than 30min.
+### 🌟 You've successfully completed the exercise! 🌟
 
-In this exercise, you will:
+## 🚀 Share Your Success!
 
-1. Create a workflow file
-1. Add a job
-1. Add a run step
-1. See the workflow run
-1. Merge your pull request
+**Show off your new skills and inspire others!**
 
-### How to start this exercise
+<a href="https://twitter.com/intent/tweet?text=I%20just%20completed%20the%20%22Hello%20GitHub%20Actions%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FArwaLinkdev%2Fskills-hello-github-actions%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn%0A" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20X-1da1f2?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" />
+</a>
+<a href="https://bsky.app/intent/compose?text=I%20just%20completed%20the%20%22Hello%20GitHub%20Actions%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FArwaLinkdev%2Fskills-hello-github-actions%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn%0A" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20Bluesky-0085ff?style=for-the-badge&logo=bluesky&logoColor=white" alt="Share on Bluesky" />
+</a>
+<a href="https://www.linkedin.com/feed/?shareActive=true&text=I%20just%20completed%20the%20%22Hello%20GitHub%20Actions%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FArwaLinkdev%2Fskills-hello-github-actions%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn%0A" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Share on LinkedIn" />
+</a>
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+### 🎯 What's Next?
+**Keep the momentum going!**
 
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills-dev&template_name=hello-github-actions&owner=%40me&name=skills-hello-github-actions&description=Exercise:+Create+and+run+a+GitHub+Actions+Workflow&visibility=public)
+[![](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/ArwaLinkdev/skills-hello-github-actions/issues/1)
+[![GitHub Skills](https://img.shields.io/badge/Explore%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://skills.github.com)
 
-<details>
-<summary>Having trouble? 🤷</summary><br/>
+*There's no better way to learn than building things!* 🚀
 
-When copying the exercise, we recommend the following settings:
-
-- For owner, choose your personal account or an organization to host the repository.
-
-- We recommend creating a public repository, since private repositories will use Actions minutes.
-
-If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
-
-- Check to see if a job is running. Sometimes it simply takes a bit longer.
-
-- If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
-
-</details>
+</div>
 
 ---
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+
